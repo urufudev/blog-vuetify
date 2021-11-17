@@ -2742,13 +2742,13 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 (0,vee_validate__WEBPACK_IMPORTED_MODULE_0__.extend)("required", _objectSpread(_objectSpread({}, vee_validate_dist_rules__WEBPACK_IMPORTED_MODULE_1__.required), {}, {
-  message: "This field is required"
+  message: "Este campo es requerido"
 }));
 (0,vee_validate__WEBPACK_IMPORTED_MODULE_0__.extend)("max", _objectSpread(_objectSpread({}, vee_validate_dist_rules__WEBPACK_IMPORTED_MODULE_1__.max), {}, {
-  message: "This field must be {length} characters or less"
+  message: "Este campo debe tener {length} caracteres o menos"
 }));
 (0,vee_validate__WEBPACK_IMPORTED_MODULE_0__.extend)("email", _objectSpread(_objectSpread({}, vee_validate_dist_rules__WEBPACK_IMPORTED_MODULE_1__.email), {}, {
-  message: "This field must be a valid email"
+  message: "Este campo debe ser un correo electrónico válido"
 }));
 
 /***/ }),

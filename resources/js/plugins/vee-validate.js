@@ -3,15 +3,15 @@ import { extend } from "vee-validate";
 
 extend("required", {
     ...required,
-    message: "This field is required",
+    message: "Este campo es requerido",
 });
 
 extend("max", {
     ...max,
-    message: "This field must be {length} characters or less",
+    message: "Este campo debe tener {length} caracteres o menos",
 });
 
 extend("email", {
     ...email,
-    message: "This field must be a valid email",
+    message: "Este campo debe ser un correo electrónico válido",
 });
